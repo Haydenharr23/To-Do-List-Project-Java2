@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<meta charset="UTF-8">
+<title>Index page</title>
 </head>
 <body>
 <form action="addTaskServlet" method="post">
@@ -10,6 +10,9 @@ Task Name: <input type="text" name="name">
 Due Date: <input type="text" name="day">
 <input type="submit" value="Add Item">
 </form><br />
-<a href="viewAllTasksServlet">View the ToDo List</a>
+<p><a href="viewAllTasksServlet">View the todo List</a></p><br />
+<p><a href="viewAllListsServlet">View all todo lists</a></p><br />
+<a href="addItemsForListServlet">Create a new todo list</a>
+
 </body>
 </html>
